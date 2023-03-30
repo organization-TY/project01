@@ -1,0 +1,8 @@
+name: hello-world
+on: push
+jobs:
+  docker-job:
+    runs-on: self-hosted
+    steps:
+      - name: Docker
+        run: docker version
